@@ -11,14 +11,24 @@
             My name is Pratibha and I help brands grow.
           </p>
           <p class="text-muted">
-            {{ aboutMe }}
+            {{ aboutData?.aboutMe }}
           </p>
           <div class="d-flex justify-content-center fs-2 gap-4">
             <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-            <a class="text-gradient" href="#!"
+            <a
+              class="text-gradient"
+              [href]="aboutData?.linkLinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               ><i class="bi bi-linkedin"></i
             ></a>
-            <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+            <a
+              class="text-gradient"
+              [href]="aboutData?.linkGithub"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bi bi-github"></i
+            ></a>
           </div>
         </div>
       </div>
