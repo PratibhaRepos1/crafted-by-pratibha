@@ -8,7 +8,7 @@ import { About, getDefaultAbout } from "../models/about";
 })
 
 export class AboutService {
-    private readonly ABOUT_ME_URL = '../../../assets/data/about-me.json';
+    private readonly ABOUT_ME_URL = '/assets/data/about-me.json.json';
 
     constructor(private http: HttpClient){}
     getAbout(): Observable<About>{

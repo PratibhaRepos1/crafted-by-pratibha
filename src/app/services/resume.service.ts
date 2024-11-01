@@ -8,7 +8,7 @@ import { Experience, Education, professionalSkills, Languages } from "../models/
 })
 
 export class ResumeService {
-    private readonly RESUME_URL = '../../../assets/data/resume.json';
+    private readonly RESUME_URL = '/assets/data/resume.json';
 
     constructor(private http: HttpClient){}
 
