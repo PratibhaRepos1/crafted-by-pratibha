@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ResumeService } from '../../services/resume.service';
 import { Experience, Education, professionalSkills, Languages } from '../../models/resume';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from "../navbar/navbar.component";
  
 @Component({
   selector: 'app-resume',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NavbarComponent],
   templateUrl: './resume.component.html',
   styleUrl: './resume.component.css'
 })

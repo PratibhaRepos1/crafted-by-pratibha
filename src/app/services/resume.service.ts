@@ -10,6 +10,9 @@ import { Experience, Education, professionalSkills, Languages } from "../models/
 export class ResumeService {
     private readonly RESUME_URL = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/resume.json';
 
+    //for local
+   // private readonly RESUME_URL = '../../assets/data/resume.json';
+
     constructor(private http: HttpClient){}
 
     getExperience(): Observable<Experience[]>{
