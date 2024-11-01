@@ -1,0 +1,156 @@
+{
+    "experience": [
+      {
+        "dateFrom": "Jun 2022",
+        "dateTo": "Current",
+        "company": "Allianz Technology",
+        "jobTitle": "Senior Frontend Developer",
+        "location": "Bangkok, Thailand",
+        "projects": [
+         "CSP - Customer Service Portal"
+        ],
+        "responsibilities": [
+             "Development of 5 Svelte and 3 Angular applications for Allianz's insurance customer service portals, enhancing user engagement across Europe, Australia, and Asia.",
+          "Translated complex application improvement requirements into epics/stories and actionable tasks, achieving a 98% alignment with business objectives.",
+          "Engineered and optimized customer interaction screens using NDBX, Web Components, and reusable building block components with HTML, CSS, JavaScript, and TypeScript, leading to a 15% improvement in user satisfaction.",
+          "Implemented Adobe Analytics tracking to monitor page and user interactions for the CSP project.",
+          "Achieved PCI-DSS Compliance by implementing advanced payment functionalities in Angular, reducing payment processing time by 25% and enhancing user experience.",
+          "Participated in daily standups to streamline communication and resolve development challenges, increasing team efficiency by 10%.",
+          "Achieved 80% unit test coverage for Svelte UI components using Jest, reducing production bugs and improving code quality."
+        ],
+        "achievements": [
+          "<strong>Achievements:</strong>",
+          "Completed Scrum Basics Training in July 2022.",
+          "Successfully delivered quarterly releases of the customer service portal for Australian customers."
+        ]
+      },
+      {
+        "dateFrom": "May 2019",
+        "dateTo": "2022",
+        "company": "Synechron Technologies Pvt. Ltd.",
+        "jobTitle": "Associate Specialist",
+        "location": "Pune, India",
+        "projects": [
+            "Client - Wells Fargo Bank"
+           ],
+        "responsibilities": [
+          "Led code reviews to improve code quality and reduce technical debt by 30%.",
+          "Designed and developed dynamic UI components and directives using Angular 12, TypeScript, and RxJS, achieving a 20% increase in application performance.",
+          "Enhanced user experience by creating intuitive screens with HTML, SCSS, Bootstrap, and KendoUI, driving a 25% increase in customer retention.",
+          "Optimized state management using NgRx based on the Redux pattern, resulting in a 15% faster application load time.",
+          "Worked with Docker, NGINX, and NodeJS for deployment and server configuration.",
+          "Delivered 80% unit test coverage using Jasmine and Karma, reducing production issues by 40%."
+        ],
+        "achievements": [
+          "<strong>Achievements:</strong>",
+          "Awarded STAR in August 2020 for optimizing and refactoring code, achieving 80% unit test coverage in Angular."
+        ]
+      },
+      {
+        "jobTitle": "Senior Software Engineer",
+        "company": "Emerson Innovation Center",
+        "location": "Pune, India",
+        "dateFrom": "Oct 2015",
+        "dateTo": "2019",
+        "projects": [
+          {
+            "projectName": "Web Application Development and Maintenance",
+            "description": "Developed and maintained robust web applications, achieving high performance and uptime."
+          }
+        ],
+        "responsibilities": [
+          "Developed and maintained web applications using .NET framework, Angular 6, and SQL Server.",
+          "Achieved 99.9% application uptime by implementing optimized server-side and client-side practices."
+        ]
+      },
+      {
+        "dateFrom": "Jun 2007",
+        "dateTo": "2013",
+        "company": "Techspeed Inc",
+        "jobTitle": "Senior Software Engineer (Product Development)",
+        "projects": [
+        ],
+        "responsibilities": [
+          "Led the development of data processing applications in ASP.NET and MVC, increasing data entry efficiency by 25%."
+        ]
+      }
+    ],
+    "education": [
+        {
+            "institution": "Bharati Vidyapeeth (Online)",
+            "year": "Aug 2026",
+            "location": "Pune India",
+            "degree": "MBA in IT Management & International Business Management (Semester I)"
+          },
+          {
+            "institution": "College Of Hi-tech Enginnering",
+            "year": "Aug 2006",
+            "location": "Pune India",
+            "degree": "Bachelor of Computer Engineering"
+          }
+    ],
+    "professionalSkills": [
+        {
+            "category": "Programming Languages",
+            "skills": ["JavaScript", "TypeScript", "C#"]
+          },
+          {
+            "category": "Web Technologies",
+            "skills": ["HTML5", "CSS3", "SCSS", "JSON"]
+          },
+          {
+            "category": "Frameworks & Libraries",
+            "skills": [
+              "Angular 14",
+              "Angular 15",
+              "Angular 16",
+              "React",
+              "Next.js",
+              "Svelte",
+              "SvelteKit",
+              "Ionic",
+              "NestJS"
+            ]
+          },
+          {
+            "category": "Testing & Tools",
+            "skills": ["Jest", "Jasmine", "Karma", "Vitest"]
+          },
+          {
+            "category": "UI/UX Design",
+            "skills": ["Bootstrap", "PrimeNG", "KendoUI", "Figma"]
+          },
+          {
+            "category": "Development Tools",
+            "skills": ["VS Code IDE", "Webpack", "Babel", "NPM", "Git", "GitHub", "GitHub Copilot"]
+          },
+          {
+            "category": "Backend Technologies",
+            "skills": ["Express", "Node.js"]
+          },
+          {
+            "category": "API & Data Management",
+            "skills": ["REST API", "Postman", "Swagger", "GraphQL", "MongoDB"]
+          },
+          {
+            "category": "Project Management",
+            "skills": ["Jira (Scrum/Agile)"]
+          },
+          {
+            "category": "Cloud & AI Technologies",
+            "skills": ["AWS", "Docker", "GenAI", "ChatGPT"]
+          }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "Fluent - C1"
+        },
+        {
+            "name": "German",
+            "level": "Beginner - A1"
+        }
+
+
+    ]
+  }
