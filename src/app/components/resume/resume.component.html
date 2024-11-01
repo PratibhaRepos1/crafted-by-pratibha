@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Personal - Start Bootstrap Template</title>
+    <title>Resume - Pratibha Jadhav</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Custom Google font-->
@@ -30,7 +30,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
         <div class="container px-5">
           <a class="navbar-brand" href="index.html"
-            ><span class="fw-bolder text-primary">Start Bootstrap</span></a
+            ><span class="fw-bolder text-primary">CraftedByPratibha</span></a
           >
           <button
             class="navbar-toggler"
@@ -84,50 +84,38 @@
                 </a>
               </div>
               <!-- Experience Card 1-->
-              <div class="card shadow border-0 rounded-4 mb-5">
+              <div
+                *ngFor="let exp of experience"
+                class="card shadow border-0 rounded-4 mb-5"
+              >
                 <div class="card-body p-5">
                   <div class="row align-items-center gx-5">
                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                       <div class="bg-light p-4 rounded-4">
                         <div class="text-primary fw-bolder mb-2">
-                          2019 - Present
+                          {{ exp.dateFrom }} - {{ exp.dateTo }}
                         </div>
-                        <div class="small fw-bolder">Web Developer</div>
-                        <div class="small text-muted">Stark Industries</div>
-                        <div class="small text-muted">Los Angeles, CA</div>
+                        <div class="small fw-bolder">{{ exp.jobTitle }}</div>
+                        <div class="small text-muted">{{ exp.company }}</div>
+                        <div class="small text-muted">{{ exp.location }}</div>
                       </div>
                     </div>
                     <div class="col-lg-8">
                       <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Delectus laudantium, voluptatem quis repellendus eaque
-                        sit animi illo ipsam amet officiis corporis sed aliquam
-                        non voluptate corrupti excepturi maxime porro fuga.
+                        <ul>
+                          <li
+                            *ngFor="let responsibility of exp.responsibilities"
+                          >
+                            {{ responsibility }}
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Experience Card 2-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-primary fw-bolder mb-2">
-                          2017 - 2019
-                        </div>
-                        <div class="small fw-bolder">SEM Specialist</div>
-                        <div class="small text-muted">Wayne Enterprises</div>
-                        <div class="small text-muted">Gotham City, NY</div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
                       <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Delectus laudantium, voluptatem quis repellendus eaque
-                        sit animi illo ipsam amet officiis corporis sed aliquam
-                        non voluptate corrupti excepturi maxime porro fuga.
+                        <ul>
+                          <li *ngFor="let achievement of exp.achievements">
+                            <span [innerHTML]="achievement"></span>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -138,60 +126,31 @@
             <section>
               <h2 class="text-secondary fw-bolder mb-4">Education</h2>
               <!-- Education Card 1-->
-              <div class="card shadow border-0 rounded-4 mb-5">
+              <div
+                *ngFor="let edu of education"
+                class="card shadow border-0 rounded-4 mb-5"
+              >
                 <div class="card-body p-5">
                   <div class="row align-items-center gx-5">
                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                       <div class="bg-light p-4 rounded-4">
                         <div class="text-secondary fw-bolder mb-2">
-                          2015 - 2017
+                          {{ edu.year }}
                         </div>
                         <div class="mb-2">
-                          <div class="small fw-bolder">Barnett College</div>
-                          <div class="small text-muted">Fairfield, NY</div>
+                          <div class="small fw-bolder">
+                            {{ edu.institution }}
+                          </div>
+                          <div class="small text-muted">{{ edu.location }}</div>
                         </div>
                         <div class="fst-italic">
-                          <div class="small text-muted">Master's</div>
-                          <div class="small text-muted">Web Development</div>
+                          <div class="small text-muted"></div>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-8">
                       <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Delectus laudantium, voluptatem quis repellendus eaque
-                        sit animi illo ipsam amet officiis corporis sed aliquam
-                        non voluptate corrupti excepturi maxime porro fuga.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Education Card 2-->
-              <div class="card shadow border-0 rounded-4 mb-5">
-                <div class="card-body p-5">
-                  <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                      <div class="bg-light p-4 rounded-4">
-                        <div class="text-secondary fw-bolder mb-2">
-                          2011 - 2015
-                        </div>
-                        <div class="mb-2">
-                          <div class="small fw-bolder">ULA</div>
-                          <div class="small text-muted">Los Angeles, CA</div>
-                        </div>
-                        <div class="fst-italic">
-                          <div class="small text-muted">Undergraduate</div>
-                          <div class="small text-muted">Computer Science</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Delectus laudantium, voluptatem quis repellendus eaque
-                        sit animi illo ipsam amet officiis corporis sed aliquam
-                        non voluptate corrupti excepturi maxime porro fuga.
+                        {{ edu.degree }}
                       </div>
                     </div>
                   </div>
@@ -220,51 +179,16 @@
                       </h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          SEO/SEM Marketing
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Statistical Analysis
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Web Development
+                      <div *ngFor="let profession of professionalSkill" class="col mb-4 mb-md-0">
+                        <div class="d-flex flex-column align-items-start bg-light rounded-4 p-3 h-100" style="padding-bottom: 1rem;">
+                          <h5>{{ profession.category }}</h5>
+                          <ul>
+                            <li *ngFor="let skill of profession.skills">{{ skill }}</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-3">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Network Security
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Adobe Software Suite
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          User Interface Design
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                   <!-- Languages list-->
                   <div class="mb-0">
@@ -278,52 +202,16 @@
                         <span class="text-gradient d-inline">Languages</span>
                       </h3>
                     </div>
+                  
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          HTML
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          CSS
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          JavaScript
+                      <div class="col mb-4 mb-md-0" *ngFor="let language of language">
+                        <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                          <span class="fw-bold">{{ language.name }}</span>
+                          <span class="ms-auto">{{ language.level }}</span>
                         </div>
                       </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-3">
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Python
-                        </div>
-                      </div>
-                      <div class="col mb-4 mb-md-0">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Ruby
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div
-                          class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                        >
-                          Node.js
-                        </div>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div>
               </div>
