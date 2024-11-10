@@ -3,6 +3,7 @@ import { ResumeService } from '../../services/resume.service';
 import { Experience, Education, professionalSkills, Languages } from '../../models/resume';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from "../navbar/navbar.component";
+import { resume_pdf } from '../../../environment';
  
 @Component({
   selector: 'app-resume',
@@ -66,6 +67,20 @@ export class ResumeComponent implements OnInit {
         console.log(`Professional Skills ${index + 1}: `, lang);
       });
     });
+  }
+
+  // Method to download the resume
+  downloadResume() {
+    //for prod
+    const resumeUrl = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/Pratibha_Jadhav_SeniorFrontendDeveloper.pdf';
+
+    //const resumeUrl = '../../../assets/data/Pratibha_Jadhav_SeniorFrontendDeveloper.pdf'; // Path to your resume file in the assets folder
+    const a = document.createElement('a');
+    a.href = resumeUrl;
+    a.download = resume_pdf; // The name of the downloaded file
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   }
 
 }
