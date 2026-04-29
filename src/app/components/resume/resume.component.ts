@@ -61,7 +61,7 @@ export class ResumeComponent implements OnInit {
   }
 
   downloadResume() {
-    const resumeUrl = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/Pratibha_Jadhav_SeniorFrontendDeveloper.pdf';
+    const resumeUrl = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/Pratibha_Jadhav_Angular_AI_Developer.pdf';
     const a = document.createElement('a');
     a.href = resumeUrl;
     a.download = resume_pdf;

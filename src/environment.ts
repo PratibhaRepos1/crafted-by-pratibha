@@ -4,4 +4,4 @@ export const environment  = {
   emailJsTemplateID: 'template_xtfw69f'
 }
 
-export const resume_pdf = 'Pratibha_Jadhav_SeniorFrontendDeveloper.pdf';
+export const resume_pdf = 'Pratibha_Jadhav_Angular_AI_Developer.pdf';
