@@ -3,23 +3,24 @@
     Education: Education[];
     ProfessionalSkills: string[];
     Languages: string[];
+    Certifications: Certification[];
     achievements: string[];
   }
-  
+
   export interface Experience {
     dateFrom: string;
     dateTo: string;
     company: string;
     jobTitle: string;
     location: string;
-    projects?: string[]; // Optional, in case you want to add projects later
+    projects?: string[];
     responsibilities: string[];
-    achievements: string[];
+    achievements?: string[];
   }
-  
+
   export interface Education {
     institution: string;
-    year: string | number; // Allows for both string and number types for year
+    year: string | number;
     degree: string;
     location: string;
   }
@@ -32,4 +33,10 @@
   export interface Languages  {
     name: string;
     level: string;
+  }
+
+  export interface Certification {
+    name: string;
+    issuer: string;
+    year: string;
   }

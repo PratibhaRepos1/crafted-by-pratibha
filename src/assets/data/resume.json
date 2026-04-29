@@ -2,48 +2,49 @@
     "experience": [
       {
         "dateFrom": "Jun 2022",
-        "dateTo": "Current",
+        "dateTo": "Present",
         "company": "Allianz Technology",
-        "jobTitle": "Senior Frontend Developer",
+        "jobTitle": "Senior Frontend Developer (Angular)",
         "location": "Bangkok, Thailand",
         "projects": [
          "CSP - Customer Service Portal"
         ],
         "responsibilities": [
-             "Development of 5 Svelte and 3 Angular applications for Allianz's insurance customer service portals, enhancing user engagement across Europe, Australia, and Asia.",
-          "Translated complex application improvement requirements into epics/stories and actionable tasks, achieving a 98% alignment with business objectives.",
-          "Engineered and optimized customer interaction screens using NDBX, Web Components, and reusable building block components with HTML, CSS, JavaScript, and TypeScript, leading to a 15% improvement in user satisfaction.",
-          "Implemented Adobe Analytics tracking to monitor page and user interactions for the CSP project.",
-          "Achieved PCI-DSS Compliance by implementing advanced payment functionalities in Angular, reducing payment processing time by 25% and enhancing user experience.",
-          "Participated in daily standups to streamline communication and resolve development challenges, increasing team efficiency by 10%.",
-          "Achieved 80% unit test coverage for Svelte UI components using Jest, reducing production bugs and improving code quality."
+          "Develop and maintain 3 Angular and 5 Svelte customer service portals serving Allianz insurance customers across Europe, Australia, and Asia.",
+          "Led the upgrade of existing Angular applications to Angular 21, adopting Signals, Standalone Components, and the new control flow syntax to modernize the codebase and improve runtime performance.",
+          "Built MCP (Model Context Protocol) servers, AI agents, and AI agent workflows to display policy details and real-time notifications on the Customer Service Portal (CSP) dashboard, delivering intelligent, personalized experiences for insurance customers.",
+          "Integrated Generative AI capabilities using OpenAI APIs and LangChain.js to enhance self-service customer workflows and automated content generation.",
+          "Designed and maintained GitHub Actions workflows for automated build, test, and deployment pipelines, streamlining release cycles across multiple environments.",
+          "Implemented PCI-DSS compliant payment functionality in Angular, reducing payment processing time by 25% and elevating user experience.",
+          "Configured Adobe Analytics tracking across the CSP, enabling actionable insights into page views and user interactions.",
+          "Achieved 80%+ unit test coverage for Angular and Svelte components using Jest, significantly reducing production defects."
         ],
         "achievements": [
           "<strong>Achievements:</strong>",
-          "Completed Scrum Basics Training in July 2022.",
-          "Successfully delivered quarterly releases of the customer service portal for Australian customers."
+          "Awarded Certificate of Appreciation in December 2024 for delivering quarterly releases of the customer service portal for Australian and European markets.",
+          "Completed AI Passport certification (Allianz Technology, April 2026) and Claude Code in Action (Anthropic, March 2026)."
         ]
       },
       {
         "dateFrom": "May 2019",
-        "dateTo": "2022",
+        "dateTo": "May 2022",
         "company": "Synechron Technologies Pvt. Ltd.",
-        "jobTitle": "Associate Specialist",
+        "jobTitle": "Associate Specialist, Frontend (Angular)",
         "location": "Pune, India",
         "projects": [
             "Client - Wells Fargo Bank"
-           ],
+        ],
         "responsibilities": [
-          "Led code reviews to improve code quality and reduce technical debt by 30%.",
-          "Designed and developed dynamic UI components and directives using Angular 12, TypeScript, and RxJS, achieving a 20% increase in application performance.",
-          "Enhanced user experience by creating intuitive screens with HTML, SCSS, Bootstrap, and KendoUI, driving a 25% increase in customer retention.",
-          "Optimized state management using NgRx based on the Redux pattern, resulting in a 15% faster application load time.",
-          "Worked with Docker, NGINX, and NodeJS for deployment and server configuration.",
+          "Designed and developed dynamic Angular 12 components, custom directives, and reactive data flows using TypeScript and RxJS, improving application performance by 20%.",
+          "Led code reviews and enforced SOLID principles across the frontend codebase, reducing technical debt by 30%.",
+          "Optimized state management with NgRx (Redux pattern), achieving 15% faster application load times.",
+          "Built intuitive user interaction screens with HTML5, SCSS, Bootstrap, and KendoUI, supporting a 25% increase in customer retention.",
+          "Containerized and deployed services using Docker, NGINX, and Node.js within microservice-based environments.",
           "Delivered 80% unit test coverage using Jasmine and Karma, reducing production issues by 40%."
         ],
         "achievements": [
           "<strong>Achievements:</strong>",
-          "Awarded STAR in August 2020 for optimizing and refactoring code, achieving 80% unit test coverage in Angular."
+          "Awarded the STAR Award in August 2020 for code optimization and reaching 80% unit test coverage in Angular."
         ]
       },
       {
@@ -51,106 +52,215 @@
         "company": "Emerson Innovation Center",
         "location": "Pune, India",
         "dateFrom": "Oct 2015",
-        "dateTo": "2019",
-        "projects": [
-          {
-            "projectName": "Web Application Development and Maintenance",
-            "description": "Developed and maintained robust web applications, achieving high performance and uptime."
-          }
-        ],
+        "dateTo": "May 2019",
+        "projects": [],
         "responsibilities": [
-          "Developed and maintained web applications using .NET framework, Angular 6, and SQL Server.",
-          "Achieved 99.9% application uptime by implementing optimized server-side and client-side practices."
+          "Developed and maintained enterprise web applications using Angular 6, .NET Framework, and SQL Server, sustaining 99.9% uptime.",
+          "Modernized legacy modules by migrating them to Angular, improving maintainability and developer velocity."
         ]
       },
       {
         "dateFrom": "Jun 2007",
-        "dateTo": "2013",
-        "company": "Techspeed Inc",
-        "jobTitle": "Senior Software Engineer (Product Development)",
-        "projects": [
-        ],
+        "dateTo": "Jul 2013",
+        "company": "Techspeed Inc.",
+        "jobTitle": "Senior Software Engineer, Product Development",
+        "location": "Pune, India",
+        "projects": [],
         "responsibilities": [
-          "Led the development of data processing applications in ASP.NET and MVC, increasing data entry efficiency by 25%."
+          "Led the development of data-processing web applications in ASP.NET MVC, increasing data-entry efficiency by 25%.",
+          "Built reusable UI modules and contributed to end-to-end product release cycles."
         ]
       }
     ],
     "education": [
         {
             "institution": "Bharati Vidyapeeth (Online)",
-            "year": "Aug 2026",
-            "location": "Pune India",
-            "degree": "MBA in IT Management & International Business Management (Semester I)"
-          },
-          {
-            "institution": "College Of Hi-tech Enginnering",
+            "year": "Expected 2027",
+            "location": "Pune, India",
+            "degree": "MBA in IT Management & International Business Management (In Progress, Semester I)"
+        },
+        {
+            "institution": "College of Hi-Tech Engineering",
             "year": "Aug 2006",
-            "location": "Pune India",
+            "location": "Pune, India",
             "degree": "Bachelor of Computer Engineering"
-          }
+        }
     ],
     "professionalSkills": [
         {
-            "category": "Programming Languages",
-            "skills": ["JavaScript", "TypeScript", "C#"]
-          },
-          {
-            "category": "Web Technologies",
-            "skills": ["HTML5", "CSS3", "SCSS", "JSON"]
-          },
-          {
-            "category": "Frameworks & Libraries",
+            "category": "Angular Ecosystem",
             "skills": [
-              "Angular 14",
-              "Angular 15",
-              "Angular 16",
-              "React",
-              "Next.js",
-              "Svelte",
-              "SvelteKit",
-              "Ionic",
-              "NestJS"
+                "Angular 6, 12, 14, 16, 21",
+                "Angular CLI",
+                "RxJS",
+                "NgRx",
+                "Signals",
+                "Standalone Components",
+                "New Control Flow Syntax",
+                "Angular Material",
+                "Lazy Loading",
+                "Reactive Forms"
             ]
-          },
-          {
-            "category": "Testing & Tools",
-            "skills": ["Jest", "Jasmine", "Karma", "Vitest"]
-          },
-          {
-            "category": "UI/UX Design",
-            "skills": ["Bootstrap", "PrimeNG", "KendoUI", "Figma"]
-          },
-          {
-            "category": "Development Tools",
-            "skills": ["VS Code IDE", "Webpack", "Babel", "NPM", "Git", "GitHub", "GitHub Copilot"]
-          },
-          {
-            "category": "Backend Technologies",
-            "skills": ["Express", "Node.js"]
-          },
-          {
-            "category": "API & Data Management",
-            "skills": ["REST API", "Postman", "Swagger", "GraphQL", "MongoDB"]
-          },
-          {
-            "category": "Project Management",
-            "skills": ["Jira (Scrum/Agile)"]
-          },
-          {
-            "category": "Cloud & AI Technologies",
-            "skills": ["AWS", "Docker", "GenAI", "ChatGPT", "Langchain.js", "Llama 3.2", "OpenAI API"]
-          }
+        },
+        {
+            "category": "AI & Generative AI",
+            "skills": [
+                "OpenAI API",
+                "LangChain.js",
+                "Llama 3.2",
+                "ChatGPT",
+                "GitHub Copilot",
+                "Prompt Engineering",
+                "Generative AI Integration",
+                "AI Agents & Workflows",
+                "MCP (Model Context Protocol) Servers",
+                "AI-driven UX"
+            ]
+        },
+        {
+            "category": "Other Frameworks & Libraries",
+            "skills": [
+                "React",
+                "Next.js",
+                "Svelte",
+                "SvelteKit",
+                "Ionic",
+                "NestJS",
+                "Express",
+                "Node.js"
+            ]
+        },
+        {
+            "category": "Programming Languages",
+            "skills": [
+                "TypeScript",
+                "JavaScript (ES6+)",
+                "C#",
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "JSON"
+            ]
+        },
+        {
+            "category": "State Management & Architecture",
+            "skills": [
+                "NgRx",
+                "Redux",
+                "RxJS",
+                "SOLID Principles",
+                "Micro-Frontend Architecture",
+                "Single-Page Applications",
+                "Microservices"
+            ]
+        },
+        {
+            "category": "Testing",
+            "skills": [
+                "Jest",
+                "Jasmine",
+                "Karma",
+                "Vitest",
+                "Unit Testing",
+                "End-to-End Testing (80%+ coverage)"
+            ]
+        },
+        {
+            "category": "UI & UX Design",
+            "skills": [
+                "PrimeNG",
+                "Bootstrap",
+                "KendoUI",
+                "Tailwind",
+                "Figma",
+                "Responsive Design",
+                "Accessibility"
+            ]
+        },
+        {
+            "category": "APIs & Data",
+            "skills": [
+                "REST APIs",
+                "GraphQL",
+                "Postman",
+                "Swagger",
+                "MongoDB",
+                "SQL Server"
+            ]
+        },
+        {
+            "category": "DevOps, Cloud & CI/CD",
+            "skills": [
+                "AWS",
+                "Docker",
+                "NGINX",
+                "Jenkins",
+                "GitHub Actions Workflows",
+                "Webpack",
+                "Babel",
+                "NPM",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "category": "CMS, Analytics & Tools",
+            "skills": [
+                "Adobe Experience Manager (AEM)",
+                "Adobe Analytics",
+                "Jira",
+                "VS Code",
+                "Agile",
+                "Scrum",
+                "PCI-DSS Compliance"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AI Passport Certificate of Completion",
+            "issuer": "Allianz Technology",
+            "year": "April 2026"
+        },
+        {
+            "name": "Claude Code in Action",
+            "issuer": "Anthropic",
+            "year": "March 2026"
+        },
+        {
+            "name": "A1 German Language Certification",
+            "issuer": "Goethe Institute, Bangkok",
+            "year": "January 2025"
+        },
+        {
+            "name": "Certificate of Appreciation",
+            "issuer": "Allianz Technology Thailand",
+            "year": "December 2024"
+        },
+        {
+            "name": "Foundations of User Experience (UX) Design",
+            "issuer": "Coursera (Google)",
+            "year": "July 2024"
+        },
+        {
+            "name": "Generative AI and Prompt Engineering",
+            "issuer": "LinkedIn Learning",
+            "year": "March 2024"
+        },
+        {
+            "name": "Introduction to Frontend Development",
+            "issuer": "Coursera (Meta)",
+            "year": "February 2024"
+        }
     ],
     "languages": [
         {
             "name": "English",
-            "level": "Fluent - C1"
+            "level": "C1 Advanced"
         },
         {
             "name": "German",
-            "level": "Beginner - A1"
+            "level": "A1 Beginner"
         }
-
-
     ]
-  }
+}
