@@ -11584,18 +11584,46 @@ html {
   position: relative;
   height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
+  border-radius: 50%;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  background: linear-gradient(135deg, #f7b733 0%, #e21e80 45%, #1e30f3 100%);
+  padding: 0.6rem;
+  box-shadow: 0 25px 60px -20px rgba(226, 30, 128, 0.45),
+    0 15px 35px -15px rgba(30, 48, 243, 0.45);
+}
+.profile::before {
+  content: "";
+  position: absolute;
+  inset: 0.6rem;
+  border-radius: 50%;
+  background: #ffffff;
+  z-index: 0;
+}
+.profile::after {
+  content: "";
+  position: absolute;
+  inset: -1.2rem;
+  border-radius: 50%;
+  background: radial-gradient(
+    closest-side,
+    rgba(226, 30, 128, 0.25),
+    rgba(30, 48, 243, 0.15) 60%,
+    transparent 75%
+  );
+  z-index: -1;
+  filter: blur(12px);
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  position: relative;
+  border-radius: 50%;
+  background: #ffffff;
+  z-index: 1;
 }
 .profile .dots-1 {
   position: absolute;
@@ -11640,7 +11668,7 @@ html {
     width: 60vw;
   }
   .profile .profile-img {
-    height: 65vw;
+    height: 100%;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11665,7 +11693,7 @@ html {
     width: 50vw;
   }
   .profile .profile-img {
-    height: 55vw;
+    height: 100%;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11690,7 +11718,7 @@ html {
     width: 40vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 100%;
   }
   .profile .dots-1 {
     width: 1.5vw;
@@ -11715,7 +11743,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 100%;
   }
   .profile .dots-1 {
     width: 1.5vw;
