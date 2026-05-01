@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
-import { Experience, Education, professionalSkills, Languages, Certification } from "../models/resume";
+import { Experience, Education, professionalSkills, Languages, Certification, AiPortfolioItem } from "../models/resume";
 @Injectable({
     providedIn: 'root'
 })
@@ -14,6 +14,16 @@ export class ResumeService {
    // private readonly RESUME_URL = '../../assets/data/resume.json';
 
     constructor(private http: HttpClient){}
+
+    getAiDevelopmentPortfolio(): Observable<AiPortfolioItem[]> {
+        return this.http.get<{ aiDevelopmentPortfolio: AiPortfolioItem[] }>(this.RESUME_URL).pipe(
+            map(response => response.aiDevelopmentPortfolio || []),
+            catchError(error => {
+                console.error('Error fetching AI development portfolio data:', error);
+                return of([]);
+            })
+        );
+    }
 
     getExperience(): Observable<Experience[]>{
         return this.http.get<{experience: Experience[]}>(this.RESUME_URL).pipe(

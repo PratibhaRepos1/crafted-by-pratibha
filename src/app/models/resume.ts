@@ -7,6 +7,15 @@
     achievements: string[];
   }
 
+  export interface AiPortfolioItem {
+    name: string;
+    deployment: string;
+    techStack: string;
+    description: string;
+    liveUrl?: string;
+    repoUrl?: string;
+  }
+
   export interface Experience {
     dateFrom: string;
     dateTo: string;

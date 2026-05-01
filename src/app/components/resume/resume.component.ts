@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ResumeService } from '../../services/resume.service';
-import { Experience, Education, professionalSkills, Languages, Certification } from '../../models/resume';
+import { Experience, Education, professionalSkills, Languages, Certification, AiPortfolioItem } from '../../models/resume';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from "../navbar/navbar.component";
 import { FooterComponent } from "../footer/footer.component";
@@ -14,6 +14,7 @@ import { resume_pdf } from '../../../environment';
   styleUrl: './resume.component.css'
 })
 export class ResumeComponent implements OnInit {
+  aiPortfolio: AiPortfolioItem[] = [];
   experience: Experience[] = [];
   education: Education[] = [];
   professionalSkill: professionalSkills[] = [];
@@ -23,11 +24,18 @@ export class ResumeComponent implements OnInit {
   constructor(private resumeService: ResumeService){}
 
   ngOnInit(): void {
+    this.loadAiPortfolioData();
     this.loadExperienceData();
     this.loadEducationData();
     this.loadprofessionalSkillData();
     this.loadlanguageData();
     this.loadCertificationsData();
+  }
+
+  private loadAiPortfolioData(): void {
+    this.resumeService.getAiDevelopmentPortfolio().subscribe((items: AiPortfolioItem[]) => {
+      this.aiPortfolio = items;
+    });
   }
 
   private loadExperienceData(): void {
