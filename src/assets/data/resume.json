@@ -105,22 +105,28 @@
         {
             "category": "AI & Generative AI",
             "skills": [
+                "Anthropic Claude API",
                 "OpenAI API",
                 "LangChain.js",
                 "Llama 3.2",
                 "ChatGPT",
                 "GitHub Copilot",
+                "Claude Code",
                 "Prompt Engineering",
                 "Generative AI Integration",
-                "AI Agents & Workflows",
+                "AI Agents",
+                "AI Agent Workflows",
                 "MCP (Model Context Protocol) Servers",
+                "RAG Pipelines",
+                "FastAPI",
+                "Slack Webhooks",
                 "AI-driven UX"
             ]
         },
         {
             "category": "Other Frameworks & Libraries",
             "skills": [
-                "React",
+                "React 18",
                 "Next.js",
                 "Svelte",
                 "SvelteKit",
@@ -196,11 +202,13 @@
                 "NGINX",
                 "Jenkins",
                 "GitHub Actions Workflows",
+                "Vercel",
                 "Webpack",
                 "Babel",
                 "NPM",
                 "Git",
-                "GitHub"
+                "GitHub",
+                "Python"
             ]
         },
         {
