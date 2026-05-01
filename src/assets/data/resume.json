@@ -1,4 +1,14 @@
 {
+    "aiDevelopmentPortfolio": [
+        {
+            "name": "Contact Form Router",
+            "deployment": "Deployed on Vercel",
+            "techStack": "React 18, Python FastAPI, Anthropic Claude API, Slack Webhooks",
+            "description": "AI-enabled contact form that uses the Anthropic Claude API to classify incoming messages by intent (sales, support, partnership, or spam) and route them to dedicated Slack channels in real time. Returns confidence scores and reasoning alongside each classification, with a Python FastAPI serverless backend and a React 18 + Tailwind CSS frontend deployed on Vercel.",
+            "liveUrl": "https://contact-form-router-sandy.vercel.app",
+            "repoUrl": "https://github.com/PratibhaRepos1/contact-form-router"
+        }
+    ],
     "experience": [
       {
         "dateFrom": "Jun 2022",
