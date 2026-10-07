@@ -8,10 +8,10 @@ import { Experience, Education, professionalSkills, Languages, Certification, Ai
 })
 
 export class ResumeService {
-    private readonly RESUME_URL = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/resume.json';
+    //private readonly RESUME_URL = 'https://pratibharepos1.github.io/crafted-by-pratibha/assets/data/resume.json';
 
     //for local
-   // private readonly RESUME_URL = '../../assets/data/resume.json';
+   private readonly RESUME_URL = '../../assets/data/resume.json';
 
     constructor(private http: HttpClient){}
 

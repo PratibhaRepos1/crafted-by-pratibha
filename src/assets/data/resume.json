@@ -1,93 +1,117 @@
 {
     "aiDevelopmentPortfolio": [
         {
+            "name": "Mielikkix AI -- Multi-Tenant AI SaaS Platform",
+            "deployment": "Docker Compose on Linux VPS",
+            "techStack": "Python FastAPI, React, Astro, PostgreSQL, RAG, AI Agents, Docker, LLM APIs",
+            "description": "Sellable platform of business AI agents with an embeddable RAG chat widget, multi-tenant dashboard and subscription tiers; agents share a provider-abstracted LLM core and cover voice reception, booking, reviews and SEO audits.",
+            "liveUrl": "https://mielikkix.ai/",
+            "repoUrl": "https://github.com/mielikkix/mielikkix-ai"
+        },
+        {
             "name": "Contact Form Router",
             "deployment": "Deployed on Vercel",
-            "techStack": "React 18, Python FastAPI, Anthropic Claude API, Slack Webhooks",
+            "techStack": "React 18, Python FastAPI, Anthropic Claude API, Slack Webhooks, Tailwind CSS",
             "description": "AI-enabled contact form that uses the Anthropic Claude API to classify incoming messages by intent (sales, support, partnership, or spam) and route them to dedicated Slack channels in real time. Returns confidence scores and reasoning alongside each classification, with a Python FastAPI serverless backend and a React 18 + Tailwind CSS frontend deployed on Vercel.",
             "liveUrl": "https://contact-form-router-sandy.vercel.app",
             "repoUrl": "https://github.com/PratibhaRepos1/contact-form-router"
         }
     ],
     "experience": [
-      {
-        "dateFrom": "Jun 2022",
-        "dateTo": "Present",
-        "company": "Allianz Technology",
-        "jobTitle": "Senior Frontend Developer (Angular)",
-        "location": "Bangkok, Thailand",
-        "projects": [
-         "CSP - Customer Service Portal"
-        ],
-        "responsibilities": [
-          "Develop and maintain 3 Angular and 5 Svelte customer service portals serving Allianz insurance customers across Europe, Australia, and Asia.",
-          "Led the upgrade of existing Angular applications to Angular 21, adopting Signals, Standalone Components, and the new control flow syntax to modernize the codebase and improve runtime performance.",
-          "Built MCP (Model Context Protocol) servers, AI agents, and AI agent workflows to display policy details and real-time notifications on the Customer Service Portal (CSP) dashboard, delivering intelligent, personalized experiences for insurance customers.",
-          "Integrated Generative AI capabilities using OpenAI APIs and LangChain.js to enhance self-service customer workflows and automated content generation.",
-          "Designed and maintained GitHub Actions workflows for automated build, test, and deployment pipelines, streamlining release cycles across multiple environments.",
-          "Implemented PCI-DSS compliant payment functionality in Angular, reducing payment processing time by 25% and elevating user experience.",
-          "Configured Adobe Analytics tracking across the CSP, enabling actionable insights into page views and user interactions.",
-          "Achieved 80%+ unit test coverage for Angular and Svelte components using Jest, significantly reducing production defects."
-        ],
-        "achievements": [
-          "<strong>Achievements:</strong>",
-          "Awarded Certificate of Appreciation in December 2024 for delivering quarterly releases of the customer service portal for Australian and European markets.",
-          "Completed AI Passport certification (Allianz Technology, April 2026) and Claude Code in Action (Anthropic, March 2026)."
-        ]
-      },
-      {
-        "dateFrom": "May 2019",
-        "dateTo": "May 2022",
-        "company": "Synechron Technologies Pvt. Ltd.",
-        "jobTitle": "Associate Specialist, Frontend (Angular)",
-        "location": "Pune, India",
-        "projects": [
-            "Client - Wells Fargo Bank"
-        ],
-        "responsibilities": [
-          "Designed and developed dynamic Angular 12 components, custom directives, and reactive data flows using TypeScript and RxJS, improving application performance by 20%.",
-          "Led code reviews and enforced SOLID principles across the frontend codebase, reducing technical debt by 30%.",
-          "Optimized state management with NgRx (Redux pattern), achieving 15% faster application load times.",
-          "Built intuitive user interaction screens with HTML5, SCSS, Bootstrap, and KendoUI, supporting a 25% increase in customer retention.",
-          "Containerized and deployed services using Docker, NGINX, and Node.js within microservice-based environments.",
-          "Delivered 80% unit test coverage using Jasmine and Karma, reducing production issues by 40%."
-        ],
-        "achievements": [
-          "<strong>Achievements:</strong>",
-          "Awarded the STAR Award in August 2020 for code optimization and reaching 80% unit test coverage in Angular."
-        ]
-      },
-      {
-        "jobTitle": "Senior Software Engineer",
-        "company": "Emerson Innovation Center",
-        "location": "Pune, India",
-        "dateFrom": "Oct 2015",
-        "dateTo": "May 2019",
-        "projects": [],
-        "responsibilities": [
-          "Developed and maintained enterprise web applications using Angular 6, .NET Framework, and SQL Server, sustaining 99.9% uptime.",
-          "Modernized legacy modules by migrating them to Angular, improving maintainability and developer velocity."
-        ]
-      },
-      {
-        "dateFrom": "Jun 2007",
-        "dateTo": "Jul 2013",
-        "company": "Techspeed Inc.",
-        "jobTitle": "Senior Software Engineer, Product Development",
-        "location": "Pune, India",
-        "projects": [],
-        "responsibilities": [
-          "Led the development of data-processing web applications in ASP.NET MVC, increasing data-entry efficiency by 25%.",
-          "Built reusable UI modules and contributed to end-to-end product release cycles."
-        ]
-      }
+        {
+            "dateFrom": "May 2026",
+            "dateTo": "Present",
+            "company": "Mielikkix AI (Mielikkix AS)",
+            "jobTitle": "AI Product Engineer / Co-Founder",
+            "location": "Remote",
+            "projects": [
+                "Mielikkix AI - Multi-Tenant AI SaaS Platform"
+            ],
+            "responsibilities": [
+                "Architect and build a multi-tenant SaaS platform of business AI agents as a monorepo: Python 3.12 FastAPI backend, React and TypeScript dashboard, embeddable chat widget and Astro marketing website.",
+                "Deliver the RAG-grounded chat widget with lead capture and the Voice Receptionist (Twilio Voice), Booking Assistant (connected to Google Calendar), Review & Reputation and SEO Audit & Optimization agents; build Support Triage as the next agent.",
+                "Design a shared agent-core with a provider-abstracted LLM client (OpenAI, Groq, Gemini, Ollama), RAG and memory layer, and a multi-tenant PostgreSQL schema (SQLAlchemy 2.0, Alembic) with subscription-tier entitlements and APScheduler jobs.",
+                "Deploy with Docker Compose on a Linux VPS with GitHub Actions CI/CD; build the React, Vite and Tailwind CSS dashboard; maintain GDPR-compliance documentation; use Claude Code for AI-assisted development."
+            ]
+        },
+        {
+            "dateFrom": "Jun 2022",
+            "dateTo": "Present",
+            "company": "Allianz Technology",
+            "jobTitle": "Senior Frontend Developer (Angular)",
+            "location": "Bangkok, Thailand",
+            "projects": [
+                "CSP - Customer Service Portal"
+            ],
+            "responsibilities": [
+                "Develop and maintain 3 Angular and 5 Svelte customer service portals serving Allianz insurance customers across Europe, Australia, and Asia.",
+                "Led the upgrade of existing Angular applications to Angular 21, adopting Signals, Standalone Components, and the new control flow syntax to modernize the codebase and improve runtime performance.",
+                "Built MCP (Model Context Protocol) servers, AI agents, and AI agent workflows to display policy details and real-time notifications on the Customer Service Portal (CSP) dashboard, delivering intelligent, personalized experiences for insurance customers.",
+                "Integrated Generative AI capabilities using OpenAI APIs and LangChain.js to enhance self-service customer workflows and automated content generation.",
+                "Designed and maintained GitHub Actions workflows for automated build, test, and deployment pipelines, streamlining release cycles across multiple environments.",
+                "Implemented PCI-DSS compliant payment functionality in Angular, reducing payment processing time by 25% and elevating user experience.",
+                "Configured Adobe Analytics tracking across the CSP, enabling actionable insights into page views and user interactions.",
+                "Achieved 80%+ unit test coverage for Angular and Svelte components using Jest, significantly reducing production defects."
+            ],
+            "achievements": [
+                "<strong>Achievements:</strong>",
+                "Awarded Certificate of Appreciation in December 2024 for delivering quarterly releases of the customer service portal for Australian and European markets.",
+                "Completed AI Passport certification (Allianz Technology, April 2026) and Claude Code in Action (Anthropic, March 2026)."
+            ]
+        },
+        {
+            "dateFrom": "May 2019",
+            "dateTo": "May 2022",
+            "company": "Synechron Technologies Pvt. Ltd.",
+            "jobTitle": "Associate Specialist, Frontend (Angular)",
+            "location": "Pune, India",
+            "projects": [
+                "Client - Wells Fargo Bank"
+            ],
+            "responsibilities": [
+                "Designed and developed dynamic Angular 12 components, custom directives, and reactive data flows using TypeScript and RxJS, improving application performance by 20%.",
+                "Led code reviews and enforced SOLID principles across the frontend codebase, reducing technical debt by 30%.",
+                "Optimized state management with NgRx (Redux pattern), achieving 15% faster application load times.",
+                "Built intuitive user interaction screens with HTML5, SCSS, Bootstrap, and KendoUI, supporting a 25% increase in customer retention.",
+                "Containerized and deployed services using Docker, NGINX, and Node.js within microservice-based environments.",
+                "Delivered 80% unit test coverage using Jasmine and Karma, reducing production issues by 40%."
+            ],
+            "achievements": [
+                "<strong>Achievements:</strong>",
+                "Awarded the STAR Award in August 2020 for code optimization and reaching 80% unit test coverage in Angular."
+            ]
+        },
+        {
+            "jobTitle": "Senior Software Engineer",
+            "company": "Emerson Innovation Center",
+            "location": "Pune, India",
+            "dateFrom": "Oct 2015",
+            "dateTo": "May 2019",
+            "projects": [],
+            "responsibilities": [
+                "Developed and maintained enterprise web applications using Angular 6, .NET Framework, and SQL Server, sustaining 99.9% uptime.",
+                "Modernized legacy modules by migrating them to Angular, improving maintainability and developer velocity."
+            ]
+        },
+        {
+            "dateFrom": "Jun 2007",
+            "dateTo": "Jul 2013",
+            "company": "Techspeed Inc.",
+            "jobTitle": "Senior Software Engineer, Product Development",
+            "location": "Pune, India",
+            "projects": [],
+            "responsibilities": [
+                "Led the development of data-processing web applications in ASP.NET MVC, increasing data-entry efficiency by 25%.",
+                "Built reusable UI modules and contributed to end-to-end product release cycles."
+            ]
+        }
     ],
     "education": [
         {
             "institution": "Bharati Vidyapeeth (Online)",
-            "year": "Expected 2027",
+            "year": "Expected Feb 2027",
             "location": "Pune, India",
-            "degree": "MBA in IT Management & International Business Management (In Progress, Semester III)"
+            "degree": "MBA in IT Management & International Business Management (In Progress, Semester IV)"
         },
         {
             "institution": "College of Hi-Tech Engineering",
@@ -127,8 +151,11 @@
                 "AI Agents",
                 "AI Agent Workflows",
                 "MCP (Model Context Protocol) Servers",
-                "RAG Pipelines",
-                "FastAPI",
+                "Retrieval-Augmented Generation (RAG) Pipelines",
+                "LLM Provider Abstraction (OpenAI, Groq, Gemini, Ollama)",
+                "Speech-to-Text and Text-to-Speech APIs",
+                "Twilio Voice",
+                "Multi-Agent Orchestration",
                 "Slack Webhooks",
                 "AI-driven UX"
             ]
@@ -137,18 +164,24 @@
             "category": "Other Frameworks & Libraries",
             "skills": [
                 "React 18",
+                "Vite",
+                "TanStack Query",
+                "Astro",
                 "Next.js",
                 "Svelte",
                 "SvelteKit",
                 "Ionic",
                 "NestJS",
                 "Express",
-                "Node.js"
+                "Node.js",
+                "FastAPI",
+                "Axios"
             ]
         },
         {
             "category": "Programming Languages",
             "skills": [
+                "Python",
                 "TypeScript",
                 "JavaScript (ES6+)",
                 "C#",
@@ -201,7 +234,11 @@
                 "Postman",
                 "Swagger",
                 "MongoDB",
-                "SQL Server"
+                "SQL Server",
+                "PostgreSQL",
+                "SQLAlchemy 2.0",
+                "Alembic",
+                "Multi-Tenant Architecture"
             ]
         },
         {
@@ -212,13 +249,16 @@
                 "NGINX",
                 "Jenkins",
                 "GitHub Actions Workflows",
+                "Docker Compose",
+                "Linux VPS Deployment",
                 "Vercel",
                 "Webpack",
                 "Babel",
                 "NPM",
                 "Git",
                 "GitHub",
-                "Python"
+                "Python 3.12",
+                "APScheduler"
             ]
         },
         {
@@ -230,7 +270,8 @@
                 "VS Code",
                 "Agile",
                 "Scrum",
-                "PCI-DSS Compliance"
+                "PCI-DSS Compliance",
+                "GDPR Compliance"
             ]
         }
     ],
